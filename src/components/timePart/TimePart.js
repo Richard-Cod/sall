@@ -49,7 +49,7 @@ function TimePart() {
         <div className='mt-20 space-y-10'>
         {data2.map((value , i) => {
           return <Item
-          inverse={i%2!=0}
+          inverse={i%2!==0}
           title="House of Slaves"
           description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est."
           />

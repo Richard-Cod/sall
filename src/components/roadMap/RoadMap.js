@@ -66,7 +66,7 @@ function Timeline() {
                 {data.map((value , i) => {
                 return <Item
                 title={value}
-                inverse={i%2!=0}
+                inverse={i%2!==0}
               />
               })}
               
