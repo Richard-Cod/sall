@@ -38,10 +38,18 @@ function Footer() {
 
       <div className='socials mt-4 mr-2 text-center py-20'>
         <div className='flex justify-between max-w-[200px] items-center mx-auto'>
+          <a href={Routes.aboutUs}>
           <img src='/assets/discord.png' className='w-10 h-8 rounded-full' />
+          </a>
+          <a href={Routes.aboutUs}>
           <img src='/assets/twitter.png' className='w-10 h-8 rounded-full' />
-          <img src='/assets/youtube.png' className='w-10 h-8 rounded-full' />
+          </a>
+          <a href={Routes.aboutUs}>
+            <img src='/assets/youtube.png' className='w-10 h-8 rounded-full' />
+          </a>
+          <a href={Routes.aboutUs}>
           <img src='/assets/instagram.png' className='w-10 h-8 rounded-full' />
+          </a>
         </div>
 
         <p className='text-xs mt-5' style={{color: Palette.yellow}}>

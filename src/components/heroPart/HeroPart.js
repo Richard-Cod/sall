@@ -1,16 +1,25 @@
 import React from 'react'
 import Palette from '../../constants/Palette'
+import Routes from '../../constants/Routes'
 
 function HeroPart() {
   return (
     <div style={{height: "90vh"}} className='relative'>
 
       <div className='socials mt-4 mr-2'>
-        <div className='w-5 ml-auto space-y-1'>
-          <img src='/assets/discord.png' className='w-5' />
-          <img src='/assets/twitter.png' className='w-5' />
-          <img src='/assets/youtube.png' className='w-5' />
-          <img src='/assets/instagram.png' className='w-5' />
+        <div className='w-8 ml-auto'>
+          <a href={Routes.aboutUs}>
+          <img className='my-1' src='/assets/discord.png' />
+          </a>
+          <a href={Routes.aboutUs}>
+          <img className='my-1' src='/assets/twitter.png' />
+          </a>
+          <a href={Routes.aboutUs}>
+          <img className='my-1' src='/assets/youtube.png' />
+          </a>
+          <a href={Routes.aboutUs}>
+          <img className='my-1' src='/assets/instagram.png' />
+          </a>
         </div>
       </div>
 

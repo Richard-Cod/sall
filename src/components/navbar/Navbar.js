@@ -14,12 +14,12 @@ function Navbar() {
         <li style={{color: Palette.yellow}}><a href={Routes.termsAndConditions}>Terms & Conditions</a></li>
       </ul>
 
-      <ul className='nav md:flex hidden space-x-3 ml-auto mr-2 md:mr-32'>
+      <ul className='nav md:flex hidden space-x-3 ml-auto mr-2 lg:mr-32'>
         <button style={{color: Palette.yellow , border: "solid 1px"}}  className='px-5 py-1 rounded-md'>Log in</button>
         <button style={{color: Palette.brow , background: Palette.yellow , border: "solid 1px"}}  className='px-5 py-1 rounded-md'>Register</button>
       </ul>
 
-      <ul className='nav md:hidden flex space-x-3 ml-auto mr-2 md:mr-32'>
+      <ul className='nav md:hidden flex space-x-3 ml-auto mr-2 lg:mr-32'>
         <button style={{color: Palette.brow , background: Palette.yellow , border: "solid 1px"}}  className='px-5 py-1 rounded-md'>M</button>
       </ul>
 
