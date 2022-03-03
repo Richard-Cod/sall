@@ -1,6 +1,5 @@
 import React from 'react'
-import Palette from '../../constants/Palette'
-import Routes from '../../constants/Routes'
+import { Palette, ROUTES } from '../../../constants'
 
 function HeroPart() {
   return (
@@ -8,16 +7,16 @@ function HeroPart() {
 
       <div className='socials mt-4 mr-2'>
         <div className='w-8 ml-auto'>
-          <a href={Routes.aboutUs}>
+          <a href={ROUTES.aboutUs}>
           <img className='my-1' src='/assets/discord.png' />
           </a>
-          <a href={Routes.aboutUs}>
+          <a href={ROUTES.aboutUs}>
           <img className='my-1' src='/assets/twitter.png' />
           </a>
-          <a href={Routes.aboutUs}>
+          <a href={ROUTES.aboutUs}>
           <img className='my-1' src='/assets/youtube.png' />
           </a>
-          <a href={Routes.aboutUs}>
+          <a href={ROUTES.aboutUs}>
           <img className='my-1' src='/assets/instagram.png' />
           </a>
         </div>

@@ -1,6 +1,6 @@
 import React from 'react'
+import { Palette } from '../../../constants'
 
-import Palette from "../../constants/Palette"
 function NewsLetterPart() {
   return (
     <div style={{background: Palette.brow }} className='pt-20 px-4'>

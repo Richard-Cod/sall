@@ -1,5 +1,6 @@
 import React from 'react'
-import Palette from '../../constants/Palette'
+import Palette from '../../../constants/Palette'
+
 function GalleryPart() {
   return (
     <div style={{background: Palette.brow , minHeight: "80vh"}} className='pt-20 px-4'>

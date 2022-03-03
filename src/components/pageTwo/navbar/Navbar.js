@@ -1,17 +1,16 @@
 import React from 'react'
-import Palette from '../../constants/Palette'
-import Routes from '../../constants/Routes'
-
+import { Palette } from '../../../constants'
+import ROUTES from '../../../constants/Routes'
 function Navbar() {
   return (
     <div className='flex py-3' style={{background: Palette.brow}}>
 
       <img className='w-7 h-7 ml-2' src="/assets/logo.png" />
       <ul className='nav md:flex space-x-3 ml-32 hidden'>
-        <li style={{color: Palette.yellow}}><a href={Routes.houseOfSlaves}>House of Slaves</a></li>
-        <li style={{color: Palette.yellow}}><a href={Routes.roadmap}>RoadMap</a></li>
-        <li style={{color: Palette.yellow}}><a href={Routes.aboutUs}>About us</a></li>
-        <li style={{color: Palette.yellow}}><a href={Routes.termsAndConditions}>Terms & Conditions</a></li>
+        <li style={{color: Palette.yellow}}><a href={ROUTES.houseOfSlaves}>House of Slaves</a></li>
+        <li style={{color: Palette.yellow}}><a href={ROUTES.roadmap}>RoadMap</a></li>
+        <li style={{color: Palette.yellow}}><a href={ROUTES.aboutUs}>About us</a></li>
+        <li style={{color: Palette.yellow}}><a href={ROUTES.termsAndConditions}>Terms & Conditions</a></li>
       </ul>
 
       <ul className='nav md:flex hidden space-x-3 ml-auto mr-2 lg:mr-32'>

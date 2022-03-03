@@ -1,6 +1,6 @@
 import React from 'react'
-import Palette from '../../constants/Palette'
-import Routes from '../../constants/Routes'
+import Palette from '../../../constants/Palette'
+import Routes from '../../../constants/Routes'
 function Footer() {
   return (
     <div style={{background: Palette.brow , minHeight: "10vh"}} className='px-4 py-10'>

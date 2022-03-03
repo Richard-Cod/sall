@@ -1,6 +1,5 @@
 import React from 'react'
-import Palette from '../../constants/Palette'
-
+import { Palette } from '../../../constants'
 
 function Part({title , description }) {
   return (
