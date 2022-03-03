@@ -1,6 +1,7 @@
-import { Footer, GalleryPart, HeroPart,
+import { GalleryPart, HeroPart,
      Navbar, NewsLetterPart, RoadMap,
       TimePart } from "../components/pageTwo"
+import { Footer } from "../components/shared"
 
 export default function PageTwo() {
   return (

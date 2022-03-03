@@ -15,7 +15,7 @@ function HeroPart() {
               <Socials classNames='flex space-x-1'  />
           </div>
         </div>
-      <div className='hero_content text-center mt-40'>
+      <div style={{transform: 'translate(-50%,-50%)'}} className='hero_content text-center absolute top-1/2 left-1/2'>
         <button style={{background: "rgb(0,0,0,0.6)" , color:'white'}}  className='px-6 py-3 rounded-full text-lg'>Explore Gorée Island</button>
       </div>
 
