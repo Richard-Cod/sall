@@ -16,3 +16,4 @@ export default function SlaveCard({title="", desc1= "lorem", desc2= "lorem",desc
     </div>
     )
   }
+
