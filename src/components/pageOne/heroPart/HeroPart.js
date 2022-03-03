@@ -20,7 +20,6 @@ function HeroPart() {
         <button style={{background: "rgb(0,0,0,0.6)" , color:'white'}}  className='px-6 py-3 rounded-full text-lg'>Explore Gorée Island</button>
       </div>
 
-      
 
     </div>
   )
