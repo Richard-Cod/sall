@@ -15,7 +15,6 @@ function HeroPart() {
               <Socials classNames='flex space-x-1'  />
           </div>
         </div>
-
       <div className='hero_content text-center mt-40'>
         <button style={{background: "rgb(0,0,0,0.6)" , color:'white'}}  className='px-6 py-3 rounded-full text-lg'>Explore Gorée Island</button>
       </div>
