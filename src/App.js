@@ -29,3 +29,9 @@ export default function App() {
 }
 
 
+// https://nftproject.netlify.app/pageOne
+// https://nftproject.netlify.app/pageTwo
+// https://nftproject.netlify.app/pageThree
+// https://nftproject.netlify.app/pageFour
+// https://nftproject.netlify.app/pageFive
+// https://nftproject.netlify.app/pageSix
