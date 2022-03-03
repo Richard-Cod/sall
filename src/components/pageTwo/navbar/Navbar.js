@@ -1,9 +1,9 @@
 import React from 'react'
 import { Palette } from '../../../constants'
 import ROUTES from '../../../constants/Routes'
-function Navbar() {
+function Navbar({isWhite}) {
   return (
-    <div className='flex py-3' style={{background: Palette.brow}}>
+    <div className='flex py-3' style={{background: isWhite ? "white" : Palette.brow}}>
 
       <img className='w-7 h-7 ml-2' src="/assets/logo.png" />
       <ul className='nav md:flex space-x-3 ml-32 hidden'>

@@ -8,7 +8,10 @@ const Routes = {
     home : "/",
     pageOne : "/pageOne",
     pageTwo : "/pageTwo",
-    pageThree: "/pageThree"
+    pageThree: "/pageThree",
+    pageFour : "/pageFour",
+    pageFive: "/pageFive",
+    pageSix: "/pageSix"
   }
 
 export default Routes
